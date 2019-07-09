@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Layout for the "Rename to" dialog
+-->
+<TableLayout xmlns:a="http://schemas.android.com/apk/res/android"
+	a:stretchColumns="0,5"
+	a:layout_width="wrap_content" a:layout_height="wrap_content">
+
+	<TableRow>
+		<TextView a:layout_column="1" a:layout_span="4" a:gravity="center" a:text="@string/files"/>
+		<TextView a:layout_column="6" a:layout_span="4" a:gravity="center" a:text="@string/folders"/>
+	</TableRow>
+
+	<TableRow>
+		<TextView a:layout_column="1" a:gravity="center" a:text="@string/perm_r"/>
+		<TextView a:layout_column="2" a:gravity="center" a:text="@string/perm_w"/>
+		<TextView a:layout_column="3" a:gravity="center" a:text="@string/perm_x"/>
+		<TextView a:layout_column="4" a:gravity="center" a:text="@string/perm_s"/>
+		<!-- -->
+		<TextView a:layout_column="6" a:gravity="center" a:text="@string/perm_r"/>
+		<TextView a:layout_column="7" a:gravity="center" a:text="@string/perm_w"/>
+		<TextView a:layout_column="8" a:gravity="center" a:text="@string/perm_x"/>
+		<TextView a:layout_column="9" a:gravity="center" a:text="@string/perm_s"/>
+	</TableRow>
+
+	<TableRow>
+		<TextView a:layout_column="0" a:text="@string/owner"/>
+		<CheckBox a:layout_column="1" a:id="@+id/file_panel_ur_file" a:checked="true"/>
+		<CheckBox a:layout_column="2" a:id="@+id/file_panel_uw_file" a:checked="true"/>
+		<CheckBox a:layout_column="3" a:id="@+id/file_panel_ux_file"/>
+		<CheckBox a:layout_column="4" a:id="@+id/file_panel_us_file"/>
+		<!-- -->
+		<CheckBox a:layout_column="6" a:id="@+id/file_panel_ur_dir" a:checked="true"/>
+		<CheckBox a:layout_column="7" a:id="@+id/file_panel_uw_dir" a:checked="true"/>
+		<CheckBox a:layout_column="8" a:id="@+id/file_panel_ux_dir" a:checked="true"/>
+		<CheckBox a:layout_column="9" a:id="@+id/file_panel_us_dir"/>
+	</TableRow>
+
+	<TableRow>
+		<TextView a:layout_column="0" a:text="@string/group"/>
+		<CheckBox a:layout_column="1" a:id="@+id/file_panel_gr_file" a:checked="true"/>
+		<CheckBox a:layout_column="2" a:id="@+id/file_panel_gw_file" a:checked="true"/>
+		<CheckBox a:layout_column="3" a:id="@+id/file_panel_gx_file"/>
+		<CheckBox a:layout_column="4" a:id="@+id/file_panel_gs_file"/>
+		<!-- -->
+		<CheckBox a:layout_column="6" a:id="@+id/file_panel_gr_dir" a:checked="true"/>
+		<CheckBox a:layout_column="7" a:id="@+id/file_panel_gw_dir" a:checked="true"/>
+		<CheckBox a:layout_column="8" a:id="@+id/file_panel_gx_dir" a:checked="true"/>
+		<CheckBox a:layout_column="9" a:id="@+id/file_panel_gs_dir"/>
+	</TableRow>
+
+	<TableRow>
+		<TextView a:layout_column="0" a:text="@string/others"/>
+		<CheckBox a:layout_column="0" a:id="@+id/file_panel_or_file" a:checked="true"/>
+		<CheckBox a:layout_column="1" a:id="@+id/file_panel_ow_file" a:checked="true"/>
+		<CheckBox a:layout_column="2" a:id="@+id/file_panel_ox_file"/>
+		<CheckBox a:layout_column="3" a:id="@+id/file_panel_os_file"/>
+		<!-- -->
+		<CheckBox a:layout_column="6" a:id="@+id/file_panel_or_dir" a:checked="true"/>
+		<CheckBox a:layout_column="7" a:id="@+id/file_panel_ow_dir" a:checked="true"/>
+		<CheckBox a:layout_column="8" a:id="@+id/file_panel_ox_dir" a:checked="true"/>
+		<CheckBox a:layout_column="9" a:id="@+id/file_panel_os_dir"/>
+	</TableRow>
+
+</TableLayout>
+<!-- vim: set ts=4 noet nowrap: -->

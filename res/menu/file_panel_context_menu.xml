@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	This is the context menu for the file panel, containing the possible actions
+-->
+<menu xmlns:a="http://schemas.android.com/apk/res/android">
+	<item a:id="@+id/file_panel_select" a:title="@string/select">
+		<menu>
+			<item a:id="@+id/file_panel_select_none" a:title="@string/none"/>
+			<item a:id="@+id/file_panel_select_all" a:title="@string/all"/>
+			<item a:id="@+id/file_panel_select_toggle" a:title="@string/toggle"/>
+		</menu>
+	</item>
+	<item a:id="@+id/file_panel_copy" a:title="@string/copy"/>
+	<item a:id="@+id/file_panel_move" a:title="@string/move"/>
+	<item a:id="@+id/file_panel_rename" a:title="@string/rename"/>
+	<item a:id="@+id/file_panel_delete" a:title="@string/delete"/>
+	<item a:id="@+id/file_panel_new_folder" a:title="@string/new_folder"/>
+	<item a:id="@+id/file_panel_change_own" a:title="@string/change_own"/>
+	<item a:id="@+id/file_panel_change_perms" a:title="@string/change_perms"/>
+</menu>
+<!-- vim: set ts=4 noet nowrap: -->

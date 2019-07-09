@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Layout for the "Rename to" dialog
+-->
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+	a:orientation="vertical"
+	a:layout_width="wrap_content" a:layout_height="wrap_content">
+
+	<TextView a:layout_gravity="center_horizontal"
+		a:layout_width="wrap_content" a:layout_height="wrap_content"
+		a:text="@string/rename_from"/>
+	
+	<EditText
+		a:id="@+id/file_panel_src_mask" a:layout_gravity="center_horizontal" a:text="*"
+		a:layout_width="fill_parent" a:layout_height="wrap_content"/>
+
+	<TextView a:layout_gravity="center_horizontal"
+		a:layout_width="wrap_content" a:layout_height="wrap_content"
+		a:text="@string/rename_to"/>
+	
+	<EditText
+		a:id="@+id/file_panel_dst_mask" a:layout_gravity="center_horizontal" a:text="*"
+		a:layout_width="fill_parent" a:layout_height="wrap_content"/>
+
+</LinearLayout>
+<!-- vim: set ts=4 noet nowrap: -->

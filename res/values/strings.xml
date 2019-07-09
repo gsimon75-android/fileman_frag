@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="all">All</string>
+	<string name="app_name">NNG FileManager</string>
+	<string name="change_own">Change ownership</string>
+	<string name="change_perms">Change permissions</string>
+	<string name="copy">Copy</string>
+	<string name="delete">Delete</string>
+	<string name="exec_cmd">Execute command</string>
+	<string name="files">Files</string>
+	<string name="folders">Folders</string>
+	<string name="group">Group</string>
+	<string name="move">Move</string>
+	<string name="new_folder">New folder</string>
+	<string name="none">None</string>
+	<string name="others">Others</string>
+	<string name="owner">Owner</string>
+	<string name="perm_r">r</string>
+	<string name="perm_s">s</string>
+	<string name="perm_w">w</string>
+	<string name="perm_x">x</string>
+	<string name="rename">Rename</string>
+	<string name="rename_from">Source mask</string>
+	<string name="rename_to">Rename to</string>
+	<string name="select">Select</string>
+	<string name="toggle">Toggle</string>
+</resources>
+<!-- vim: set ts=4 noet nowrap: -->

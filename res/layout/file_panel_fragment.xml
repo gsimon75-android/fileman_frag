@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	This is the layout for an embeddable file lister panel, currently only a ListView, but if there
+	will be other controls (show-toggles or order-by-buttons) they can be added here
+-->
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+	a:orientation="vertical"
+	a:layout_width="fill_parent" a:layout_height="fill_parent">
+
+	<TextView
+		a:id="@+id/working_dir" a:textSize="20sp" a:textStyle="bold"
+		a:layout_width="fill_parent" a:layout_height="wrap_content"/>
+
+	<ListView 
+		a:id="@+id/content_list"
+		a:layout_width="fill_parent" a:layout_height="0px" a:layout_weight="1"/>
+	<!-- a:divider="#00000000"/> -->
+
+	<LinearLayout
+		a:id="@+id/progress_block" a:orientation="vertical" a:visibility="gone"
+		a:layout_width="fill_parent" a:layout_height="wrap_content">
+
+		<ProgressBar
+			a:id="@+id/progress_bar" style="@android:style/Widget.ProgressBar.Horizontal"
+			a:layout_width="fill_parent" a:layout_height="wrap_content"/>
+
+		<TextView
+			a:id="@+id/progress_name"
+			a:layout_width="fill_parent" a:layout_height="wrap_content"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+<!-- vim: set ts=4 noet nowrap: -->

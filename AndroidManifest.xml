@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:a="http://schemas.android.com/apk/res/android" package="org.dyndns.fules.filemanager" a:versionCode="1" a:versionName="1.0">
+	<uses-permission a:name="android.permission.READ_EXTERNAL_STORAGE"/>
+	<uses-permission a:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission a:name="android.permission.READ_MEDIA_STORAGE"/>
+	<uses-permission a:name="android.permission.WRITE_MEDIA_STORAGE"/>
+	<uses-sdk a:minSdkVersion="15" a:targetSdkVersion="15"/>
+	<application a:label="@string/app_name" a:icon="@drawable/ic_launcher">
+		<activity a:name="FileManagerActivity" a:label="@string/app_name">
+			<intent-filter>
+				<action a:name="android.intent.action.MAIN"/>
+				<category a:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+	</application>
+</manifest>
+<!-- vim: set ts=4 noet nowrap: -->

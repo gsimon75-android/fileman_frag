@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+	a:orientation="vertical"
+	a:layout_width="fill_parent" a:layout_height="fill_parent">
+
+	<ImageView a:background="#808080"
+		a:layout_width="fill_parent" a:layout_height="5px"/>
+
+	<fragment a:name="org.dyndns.fules.filemanager.FilePanelFragment"
+		a:id="@+id/file_panel_1"
+		a:layout_width="fill_parent" a:layout_height="0dp" a:layout_weight="1"/>
+
+	<ImageView a:background="#808080"
+		a:layout_width="fill_parent" a:layout_height="5px"/>
+
+	<fragment a:name="org.dyndns.fules.filemanager.FilePanelFragment"
+		a:id="@+id/file_panel_2"
+		a:layout_width="fill_parent" a:layout_height="0dp" a:layout_weight="1"/>
+
+</LinearLayout>
+<!-- vim: set ts=4 noet nowrap: -->
